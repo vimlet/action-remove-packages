@@ -1,18 +1,21 @@
 {
-    "name": "navikt/remove-package-versions",
+    "name": "vimlet/action-remove-packages",
     "description": "Clean up older versions of private packages in GitHub Packages",
-    "homepage": "https://github.com/navikt/remove-package-versions",
+    "homepage": "https://github.com/vimlet/action-remove-packages",
     "readme": "README.md",
     "license": "MIT",
     "authors": [
         {
             "name": "Christer Edvartsen"
+        }, 
+        {
+            "name": "Vimlet"
         }
     ],
     "support": {
-        "issues": "https://github.com/navikt/remove-package-versions/issues",
-        "source": "https://github.com/navikt/remove-package-versions",
-        "docs": "https://github.com/navikt/remove-package-versions"
+        "issues": "https://github.com/vimlet/action-remove-packages/issues",
+        "source": "https://github.com/vimlet/action-remove-packages",
+        "docs": "https://github.com/vimlet/action-remove-packages"
     },
     "require": {
         "guzzlehttp/guzzle": "^6.5"

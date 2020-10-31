@@ -17,7 +17,7 @@ RUN php composer.phar install -o --no-dev --no-plugins --no-scripts --no-ansi &&
     rm composer.phar
 
 FROM php:7.3-cli-alpine
-LABEL "repository"="https://github.com/navikt/remove-package-versions"
-LABEL "maintainer"="@christeredvartsen"
+LABEL "repository"="https://github.com/vimlet/action-remove-packages"
+LABEL "maintainer"="@vimlet"
 COPY --from=build /app /app
 ENTRYPOINT ["php", "/app/action.php"]

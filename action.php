@@ -96,7 +96,7 @@ $token             = (string) getenv('GITHUB_TOKEN');
 $keepVersions      = (int) getenv('INPUT_KEEP_VERSIONS') ?: 5;
 $removeSemver      = 'true' === getenv('INPUT_REMOVE_SEMVER');
 $repoNameWithOwner = (string) getenv('GITHUB_REPOSITORY');
-$clientId          = 'epitomeglobal/remove-package-versions';
+$clientId          = 'epitomeglobal/action-remove-packages';
 
 if (empty($token)) {
     fail('Missing GITHUB_TOKEN');

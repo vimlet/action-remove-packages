@@ -1,5 +1,5 @@
 name: Remove package versions from GitHub Packages
-author: Epitome Global
+author: Vimlet
 description: Clean up older versions of private packages in GitHub Packages
 inputs:
   keep-versions:
